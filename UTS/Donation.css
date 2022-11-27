@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(114, 55, 1, 0.76), rgba(0,0,1,0.5)), url(BG_Don.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.donation{
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background: #FFEEAD;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.705);
+}
+
+.donation h2{
+    margin: 0;
+    padding: 0;
+    color: saddlebrown;
+    text-shadow: 3px 1px 0px rgba(255, 119, 0, 0.774);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.donation .border{
+    width: 100px;
+    height: 4px;
+    background: #F76E11;
+    margin: 5px auto;
+    margin-bottom: 20px;
+}
+
+.donation input{
+    padding: 5px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+
+.donation input[type="submit"]{
+    border-bottom: none;
+    cursor: pointer;
+    background: #F76E11;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+}
+
+.payment input{
+    margin-bottom: 10px;
+    width: 5%;
+}
+
+.donation form div{
+    position: relative;
+}
+
+.donation input[type="submit"]:hover{
+    background: saddlebrown;
+}
